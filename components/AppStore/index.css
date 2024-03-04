@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AppStore{
+  background-image: linear-gradient(to bottom, #dfe2e5, #dfe2e5, #dfe2e5, #dfe2e5, #dfe2e5, #dce2e7, #d9e1e9, #d5e1eb, #cce0ef, #c3e0f3, #b8e0f6, #ace0f9);
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  font-family: "Bree Serif";
+}
+
+.search-container{
+  display:flex;
+  align-items:center;
+  border:1px solid #1e293b;
+  border-radius:0.5rem;
+  padding:0.3rem;
+  
+}
+
+.input-bar{
+  height:2rem;
+  width:15rem;
+  background-color:transparent;
+  outline:none;
+  border:none;
+  font-family: "Bree Serif";
+}
+.search-icon{
+  height:2rem;
+}
+
+.tabs-container{
+  display:flex;
+  background-color:transparent;
+
+}
+
+.apps-container{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:1rem;
+  
+  
+}
